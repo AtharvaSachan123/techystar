@@ -1,14 +1,20 @@
 import React from 'react'
+import{BrowserRouter as Router,Routes,Route}from "react-router-dom"
 import Header from './components/Header'
-import "./styles/App.css"
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import "./styles/App.scss";
+import "./styles/Header.scss"
+import "./styles/Home.scss"
+
+import Home from './components/Home';
 const App = () => {
-  return<Router>
+  return (
+  <Router>
+    <Header/>
     <Routes>
-      <Route path="/" element={<Header/>}/>
+      <Route path="/" element={<Home/>}  />
     </Routes>
   </Router>
+  )
 }
 
 export default App
-
