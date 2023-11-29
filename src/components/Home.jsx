@@ -21,6 +21,13 @@ const Home = () => {
       </p>
       </div>
     </div>
+    <div className="home3"><div>
+      <h1>Who we are</h1>
+      <p>
+      TechyStar is more than a brand; we're a dynamic team of tech enthusiasts dedicated to innovative solutions. Fueled by passion, integrity, and a commitment to excellence, we thrive on pushing boundaries and shaping a future where technology transforms lives. TechyStar: Redefining Tomorrow.
+      </p>
+    </div>
+    </div>
    
     </>
   )
