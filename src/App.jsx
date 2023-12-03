@@ -4,6 +4,8 @@ import Header from './components/Header'
 import "./styles/App.scss";
 import "./styles/Header.scss"
 import "./styles/Home.scss"
+import "./styles/footer.scss"
+import Footer from './components/Footer';
 
 import Home from './components/Home';
 const App = () => {
@@ -13,6 +15,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home/>}  />
     </Routes>
+    <Footer/>
   </Router>
   )
 }
